@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(wallpaper.jpg);
+}
+
+
+header nav ul li {
+  /*Estilo link barra de navegação*/
+  list-style: none;/*tira sublinhado lista*/
+  display: inline-block;/*bota elementos lista lado a lado*/
+
+}
+
+header nav ul{
+  /*espaço entre a lista e o canto direito*/
+  margin-right: 10px;
+}
+
+/*Tira sombreado e muda de cor quando passa por cima*/
+header a, footer a{
+
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+
+}
+
+header a:hover, footer a:hover{
+  /*muda cor da lista quando mouse passa por cima*/
+  color: red;
+  opacity: 1;
+}
+
+header nav{
+  /*posição elementos lista e estilo*/
+  display: flex;/*centralizar verticalmente*/
+  align-items: center;/*centraliza na vertical*/
+  justify-content: flex-end;/*posiciona lista a direita na header*/
+  height: 60px;
+  background-color: #000;
+}
+
+/*------------corpo da página--------------*/
+/*------------corpo da página--------------*/
+/*------------corpo da página--------------*/
+
+li {
+  font-weight: bolder;
+}
+
+main{
+  /*organiza os elementos do corpo da página*/
+  display: flex;
+  flex-direction: column;/*elementos em sequência vertical*/
+  align-items: center;
+}
+
+section{
+  /*limita o espaço das section*/
+  width: 70%;
+}
+
+article{
+  /*centraliza elementos do corpo da pagina*/
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article p{
+  /*estilo parágrafo*/
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+h1{
+  /*estilo título da página*/
+  font-size: 3em;
+}
+main a{color: #ffad33;}
+main a:hover{ color: mediumvioletred}
+/*-----------estilo rodapé-------------*/
+
+footer{
+  /*posição e estilo do rodapé*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+footer a{
+  /*estilo links rodapé*/
+  text-decoration: none;
+  color: #fff;
+  padding: 0 20px 0 20px;
+}
